@@ -3,138 +3,95 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Grayson</title>
 </head>
 
 <body>
-
     <header class="header">
-        <nav class="nav">
-            <div class="nav__content container">
-                <a href="index.html" class="logo">
-                    <img src="./img/logo.svg" alt="">
-                </a>
-
-                <div class="nav__menu">
-                    <ul class="nav__list">
+        <nav class="nav container">
+            <a href="index.html" class="logo">
+                <img src="img/Logo_black.svg" alt="logo">
+            </a>
+            <ul class="nav__list">
+                <li><a class="nav__list_link" href="#">HOME</a></li>
+                <li><a class="nav__list_link" href="#">PAGES</a></li>
+                <!--  -->
+                <li class="dropdown__item">
+                    <a class="nav__list_link" href="#">PORTFOLIO
+                        <img src="./img/Vector 1.svg" alt=""></a>
+                    <ul class="dropdown_list">
                         <li>
-                            <a class="nav__list_link" href="#!">HOME</a>
-                        </li>
+                            <a href="" class="dropdown__list-link">SHOP</a></li>
                         <li>
-                            <a class="nav__list_link" href="#!">PAGES</a>
-                        </li>
-                        <!--  -->
-                        <li class="dropdown__item">
-                            <a class="nav__list_link" href="#!">
-                                PORTFOLIO
-                                <img src="./img/tr.svg" alt="">
-                            </a>
-                            <!-- list -->
-                            <ul class="dropdown__list">
-                                <li>
-                                    <a href="" class="dropdown__list-link">
-                                        SHOP
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="dropdown__list-link">
-                                        FASHION
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="dropdown__list-link">
-                                        GALLERY
-                                    </a>
-                                </li>
-                            </ul>
-                            <!-- /list -->
-
-                        </li>
-                        <!--  -->
+                            <a href="" class="dropdown__list-link">FASHION</a></li>
                         <li>
-                            <a class="nav__list_link" href="#!">BLOG</a>
-                        </li>
-                        <li>
-                            <a class="nav__list_link" href="#!">ABOUT</a>
-                        </li>
-                        <li>
-                            <a class="nav__list_link" href="#!">SHORTCODES</a>
-                        </li>
+                            <a href="" class="dropdown__list-link">GALLERY</a></li>
                     </ul>
-                    <button class="form__btn nav__menu_btn">
-                        <img src="./img/tr.svg" alt="">
-                    </button>
-                </div>
+                </li>
+                <!--  -->
+                <li><a class="nav__list_link" href="#">BLOG</a></li>
+                <li><a class="nav__list_link" href="#">ABOUT</a></li>
+                <li><a class="nav__list_link" href="#">SHORTCODES</a></li>
+            </ul>
 
-                <form class="form" action="#!">
-                    <input type="text" placeholder="Search">
-                    <button class="form__btn">
-                        <img src="./img/search.svg" alt="">
-                    </button>
-                </form>
-            </div>
+            <form action="" class="form">
+                <input type="text" placeholder="Search">
+                <button class="form__btm">
+                    <img src="./img/seearch.svg" alt="">
+                </button>
+            </form>
         </nav>
-
         <div class="header__content">
-            <h1 class="header__content_title">
-                Amazing Shop Layouts
-            </h1>
-            <h2 class="header__content_subTitle">
-                Grayson Collection
-            </h2>
-
-            <a href="" class="header__content_btn">
+            <h1 class="header__content_title">Amazing Shop Layouts</h1>
+            <h2 class="header__content_subtitle">Grayson Collection</h2>
+            <a href="#" class="header__content_btn">
                 <span>SHOP NOW</span>
             </a>
         </div>
     </header>
-
     <main class="main">
         <section class="commerce">
             <div class="container commerce__content">
-
                 <div class="commerce__content-cards">
-
                     <div class="commerce__content-card">
-                        <img src="./img/barcelona.png" alt="">
+                        <img src="./img/barcelona.png" alt="barcelona">
                         <span>Barcelona</span>
                     </div>
                     <div class="commerce__content-card">
-                        <img src="./img/barcelona.png" alt="">
-                        <span>Barcelona</span>
+                        <img src="./img/milano.png" alt="milano">
+                        <span>Milano</span>
                     </div>
                     <div class="commerce__content-card">
-                        <img src="./img/barcelona.png" alt="">
-                        <span>Barcelona</span>
+                        <img src="./img/paris.png" alt="paris">
+                        <span>Paris</span>
                     </div>
                     <div class="commerce__content-card">
-                        <img src="./img/barcelona.png" alt="">
-                        <span>Barcelona</span>
+                        <img src="./img/rome.png" alt="rome">
+                        <span>Rome</span>
                     </div>
-
                 </div>
-
                 <div class="commerce__content_text">
                     <h2 class="commerce__content_text_title">
                         eCommerce Ready
                     </h2>
-                    <p class="commerce__content_text_descr">
-                        Style your products and shop pages, add a cart widget to your header,
-                        and convert clicks into sales.
-                    </p>
+                    <p class="commerce__content_text_descr">Style your products and shop pages, add a cart widget to
+                        your header,
+                        and convert clicks into sales.</p>
                 </div>
-
             </div>
         </section>
 
         <section class="project">
+
             <div class="container project__content">
+
                 <p class="project__descr">
                     The Chloe Collection
                 </p>
+
                 <h2 class="project__title">
                     The Project Jacket
                 </h2>
@@ -142,10 +99,15 @@
                 <a href="" class="project__btn header__content_btn">
                     <span>PURCHASE THEME</span>
                 </a>
+
             </div>
+
+
+
         </section>
 
-        <!-- <section class="custom">
+        <section class="custom">
+
             <div class="container custom__content">
 
                 <div class="custom__content_text">
@@ -156,232 +118,314 @@
                         Style your products and shop pages, add a cart widget to your header,
                         and convert clicks into sales.
                     </p>
-                </div>
 
+
+                </div>
                 <div class="custom__cards">
+                    <!--  -->
                     <div class="custom__card">
                         <div class="custom__card_img">
-                            <img src="./img/custom1.png" alt="">
+                            <img src="./img/cust1.png" alt="cust1">
+                            <!--  -->
                             <div class="custom__card_info">
+
                                 <a href="" class="custom__card_info_basket">
                                     <img src="./img/basket.png" alt="basket">
                                     <span>ADD TO CART</span>
                                 </a>
+
                                 <ul class="custom__card_info_list">
+
                                     <li>
                                         <a href="">
-                                            <img src="./img/heart.png" alt="">
+
+                                            <img src="./img/heart.png" alt="heart">
+
                                         </a>
                                     </li>
+
                                     <li>
                                         <a href="">
-                                            <img src="./img/eye.png" alt="">
+
+                                            <img src="./img/eye.png" alt="eye">
+
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
                         <h3 class="custom__card_title">
                             Cotton-Blend-Jacket
                         </h3>
+
                         <p class="custom__card_price">
                             $48.00
                         </p>
+
                     </div>
+                    <!--  -->
+                    <!--  -->
                     <div class="custom__card">
                         <div class="custom__card_img">
-                            <img src="./img/custom2.png" alt="">
+                            <img src="./img/cust2.png" alt="cust2">
+                            <!--  -->
                             <div class="custom__card_info">
+
                                 <a href="" class="custom__card_info_basket">
                                     <img src="./img/basket.png" alt="basket">
                                     <span>ADD TO CART</span>
                                 </a>
+
                                 <ul class="custom__card_info_list">
+
                                     <li>
                                         <a href="">
-                                            <img src="./img/heart.png" alt="">
+
+                                            <img src="./img/heart.png" alt="heart">
+
                                         </a>
                                     </li>
+
                                     <li>
                                         <a href="">
-                                            <img src="./img/eye.png" alt="">
+
+                                            <img src="./img/eye.png" alt="eye">
+
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
+                        <h3 class="custom__card_title">
+                            Cotton-Blend-Jacket
+                        </h3>
+
+                        <p class="custom__card_price">
+                            $59.00 </p>
+
+                    </div>
+                    <!--  -->
+                    <!--  -->
+                    <div class="custom__card">
+                        <div class="custom__card_img">
+                            <img src="./img/cust3.png" alt="cust3">
+                            <!--  -->
+                            <div class="custom__card_info">
+
+                                <a href="" class="custom__card_info_basket">
+                                    <img src="./img/basket.png" alt="basket">
+                                    <span>ADD TO CART</span>
+                                </a>
+
+                                <ul class="custom__card_info_list">
+
+                                    <li>
+                                        <a href="">
+
+                                            <img src="./img/heart.png" alt="heart">
+
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">
+
+                                            <img src="./img/eye.png" alt="eye">
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 class="custom__card_title">
+                            Multi Pocket Jacket </h3>
+
+                        <p class="custom__card_price">
+                            $48.00 </p>
+
+                    </div>
+                    <!--  -->
+                    <!--  -->
+                    <div class="custom__card">
+                        <div class="custom__card_img">
+                            <img src="./img/cust1.png" alt="cust1">
+                            <!--  -->
+                            <div class="custom__card_info">
+
+                                <a href="" class="custom__card_info_basket">
+                                    <img src="./img/basket.png" alt="basket">
+                                    <span>ADD TO CART</span>
+                                </a>
+
+                                <ul class="custom__card_info_list">
+
+                                    <li>
+                                        <a href="">
+
+                                            <img src="./img/heart.png" alt="heart">
+
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">
+
+                                            <img src="./img/eye.png" alt="eye">
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <h3 class="custom__card_title">
                             Multi Pocket Jacket
                         </h3>
-                        <p class="custom__card_price">
-                            $59.00
-                        </p>
-                    </div>
-                    <div class="custom__card">
-                        <div class="custom__card_img">
-                            <img src="./img/custom3.png" alt="">
-                            <div class="custom__card_info">
-                                <a href="" class="custom__card_info_basket">
-                                    <img src="./img/basket.png" alt="basket">
-                                    <span>ADD TO CART</span>
-                                </a>
-                                <ul class="custom__card_info_list">
-                                    <li>
-                                        <a href="">
-                                            <img src="./img/heart.png" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <img src="./img/eye.png" alt="">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <h3 class="custom__card_title">
-                            Velvet Blazer
-                        </h3>
-                        <p class="custom__card_price">
-                            $48.00
-                        </p>
-                    </div>
-                    <div class="custom__card">
-                        <div class="custom__card_img">
-                            <img src="./img/custom4.png" alt="">
-                            <div class="custom__card_info">
-                                <a href="" class="custom__card_info_basket">
-                                    <img src="./img/basket.png" alt="basket">
-                                    <span>ADD TO CART</span>
-                                </a>
-                                <ul class="custom__card_info_list">
-                                    <li>
-                                        <a href="">
-                                            <img src="./img/heart.png" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <img src="./img/eye.png" alt="">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <h3 class="custom__card_title">
-                            Cotton-Blend-Jacket
-                        </h3>
+
                         <p class="custom__card_price">
                             <span>$28.00</span>
                             $16.00
                         </p>
+
                     </div>
+                    <!--  -->
                 </div>
 
             </div>
-        </section> -->
+
+
+
+
+        </section>
 
     </main>
 
-    <!-- <footer class="footer">
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
         <div class="container footer__content">
-            <div class="footer__content_item">
+
+            <div class="footer__conten_item">
+
                 <h3 class="footer__content_item_title">
+
                     Customer Services
+
                 </h3>
-              
-                <ul class="footer__content_item_list">
-                    <li>
-                        <a href="" class="footer__content_item_list_link">
-                            Contact Us
-                        </a>
-                    </li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            Shipping
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            Click & Collect
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            Returns
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            FAQ’s
-                        </a></li>
+
+                <!--  -->
+
+                <ul class="footer__conten_item_list">
+
+                    <li><a href="#" class="footer__content_item_list_link">Contact Us</a></li>
+                    <li><a href="#" class="footer__content_item_list_link">Shipping</a></li>
+                    <li><a href="#" class="footer__content_item_list_link">Click & Collect</a></li>
+                    <li><a href="#" class="footer__content_item_list_link">Returns</a></li>
+                    <li><a href="#" class="footer__content_item_list_link">FAQ’s</a></li>
+
                 </ul>
-             
+
+                <!--  -->
 
             </div>
-            <div class="footer__content_item">
+            <div class="footer__conten_item">
+
                 <h3 class="footer__content_item_title">
+
                     Customer Assistance
                 </h3>
-           
-                <ul class="footer__content_item_list">
-                    <li>
-                        <a href="" class="footer__content_item_list_link">
-                            Track My Orders
-                        </a>
-                    </li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            Online Returns
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            Shipping Rates
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            Returns & Exchanges
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            International Shipping
-                        </a></li>
+
+                <!--  -->
+
+                <ul class="footer__conten_item_list">
+
+                    <li><a href="#" class="footer__content_item_list_link">Track My Orders</a></li>
+                    <li><a href="#" class="footer__content_item_list_link">Online Returns</a></li>
+                    <li><a href="#" class="footer__content_item_list_link">Shipping Rates</a></li>
+                    <li><a href="#" class="footer__content_item_list_link">Returns & Exchanges</a></li>
+                    <li><a href="#" class="footer__content_item_list_link">International Shopping</a></li>
+
                 </ul>
-          
+
+                <!--  -->
 
             </div>
-            <div class="footer__content_item">
+            <div class="footer__conten_item">
+
                 <h3 class="footer__content_item_title">
-                    Follow Grayson
-                </h3>
-      
-                <ul class="footer__content_item_list">
-                    <li>
-                        <a href="" class="footer__content_item_list_link">
-                            <img src="./img/fb.png" alt="fb">
-                            Facebook
-                        </a>
-                    </li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            <img src="./img/twitter.png" alt="twitter">
-                            twitter
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            <img src="./img/vimeo.png" alt="vimeo">
-                            vimeo
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            <img src="./img/pinterest.png" alt="pinterest">
-                            pinterest
-                        </a></li>
-                    <li><a href="" class="footer__content_item_list_link">
-                            <img src="./img/youtube.png" alt="youtube">
-                            youtube
-                        </a></li>
+
+                    Follow Grayson                </h3>
+
+                <!--  -->
+
+                <ul class="footer__conten_item_list">
+
+                    <li><a href="#" class="footer__content_item_list_link">
+                        <img src="./img/facebook-square-brands (1).svg" alt="">
+                        Facebook
+                    </a></li>
+                    
+                    <li><a href="#" class="footer__content_item_list_link">
+                        <img src="./img/twitter-square-brands (1).svg" alt="">
+                        Twitter
+                    </a></li>
+                    
+                    <li><a href="#" class="footer__content_item_list_link">
+                        <img src="./img/vimeo-square-brands (1).svg" alt="">
+                        Vimeo
+                    </a></li>
+                    
+                    <li><a href="#" class="footer__content_item_list_link">
+                        <img src="./img/pinterest-square-brands (1).svg" alt="">
+                        Pinterest
+                    </a></li>
+                    
+                    <li><a href="#" class="footer__content_item_list_link">
+                        <img src="./img/youtube-square-brands (1).svg" alt="">
+                        Youtube</a></li>
+
                 </ul>
+
+                <!--  -->
+
             </div>
+            
             <div class="footer__content_item">
+            <div class="footer__content_column4">
                 <h3 class="footer__content_item_title">
-                    Join The Club
+                    Join the Club
                 </h3>
+                
                 <form action="">
-                    <input type="email" placeholder="E-mail Address*" required>
+                    <input type="email" required>
                     <button>
-                        join
+                        JOIN
                     </button>
                 </form>
+                
+                <p class="footer__content_text">Sign me up to receive emails on new product arrivals, special offers and exclusive events.</p>
+                
+                <ul class="footer__item_payments">
+                    <li><a href=""></a><img src="./img/cc-visa-brands.svg" alt=""></li>
+                    <li><a href=""></a><img src="./img/cc-paypal-brands.svg" alt=""></li>
+                    <li><a href=""></a><img src="./img/discover.png" alt=""></li>
+                    <li><a href=""></a><img src="./img/mastercard.png" alt=""></li>
+                </ul>
             </div>
+            </div>
+            
+
         </div>
-    </footer> -->
+
+        
+        
+    </footer>
+
+    <!-- FOOTER -->
 
 </body>
 
